@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Baam</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: white;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav a:hover {
+            opacity: 0.8;
+        }
+        .page-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .page-header h1 {
+            font-size: 3em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section {
+            padding: 80px 20px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .service-card {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .service-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .service-header h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .service-icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .service-body {
+            padding: 30px 20px;
+            background: white;
+        }
+        .price {
+            color: #667eea;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background: #764ba2;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🚀 Baam</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/features/">Features</a></li>
+                <li><a href="/services/">Services</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/contact/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="page-header">
+        <h1>Our Services</h1>
+        <p>Choose the perfect plan for your business</p>
+    </section>
+    <section class="section container">
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon">⭐</div>
+                    <h3>Starter</h3>
+                </div>
+                <div class="service-body">
+                    <div class="price">$29/month</div>
+                    <p>✓ Up to 5 users<br>✓ 10GB storage<br>✓ Basic analytics<br>✓ Email support</p>
+                    <a href="/contact/" class="btn">Get Started</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon">🏆</div>
+                    <h3>Professional</h3>
+                </div>
+                <div class="service-body">
+                    <div class="price">$99/month</div>
+                    <p>✓ Up to 50 users<br>✓ 500GB storage<br>✓ Advanced analytics<br>✓ Priority support</p>
+                    <a href="/contact/" class="btn">Get Started</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-header">
+                    <div class="service-icon">👑</div>
+                    <h3>Enterprise</h3>
+                </div>
+                <div class="service-body">
+                    <div class="price">Custom</div>
+                    <p>✓ Unlimited users<br>✓ Unlimited storage<br>✓ Custom analytics<br>✓ 24/7 support</p>
+                    <a href="/contact/" class="btn">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 Baam. All rights reserved.</p>
+    </footer>
+</body>
+</html>

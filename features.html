@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - Baam</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: white;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav a:hover {
+            opacity: 0.8;
+        }
+        .page-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .page-header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section {
+            padding: 80px 20px;
+        }
+        .features-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+        .feature-item {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        .feature-item h3 {
+            color: #667eea;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        .feature-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🚀 Baam</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/features/">Features</a></li>
+                <li><a href="/services/">Services</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/contact/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="page-header">
+        <h1>Our Features</h1>
+        <p>Powerful tools designed for your success</p>
+    </section>
+    <section class="section container">
+        <div class="features-list">
+            <div class="feature-item">
+                <div class="feature-icon">⚙️</div>
+                <h3>Advanced Analytics</h3>
+                <p>Get real-time insights into your business performance with our comprehensive analytics dashboard.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🔄</div>
+                <h3>Seamless Integration</h3>
+                <p>Connect with your favorite tools effortlessly. Our platform integrates with 500+ applications.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">👥</div>
+                <h3>Team Collaboration</h3>
+                <p>Work together in real-time with your team members from anywhere in the world.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">📱</div>
+                <h3>Mobile First</h3>
+                <p>Stay productive on the go with our fully responsive mobile app.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🔐</div>
+                <h3>Bank-Level Security</h3>
+                <p>Your data is protected with enterprise-grade encryption and compliance.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🚀</div>
+                <h3>Auto-Scaling</h3>
+                <p>Our infrastructure automatically scales to handle your growing business needs.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 Baam. All rights reserved.</p>
+    </footer>
+</body>
+</html>
