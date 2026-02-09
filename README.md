@@ -5,11 +5,9 @@ Activity 1:
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/17f9e353-1353-49fb-8534-64456cea11da" />
 
 
-
-
-
 Activty 2:
 
+https://drive.google.com/file/d/1qwu2RnslCBn3eXhg-fXRBikiDYM6_b2N/view?usp=sharing
 
 
 
