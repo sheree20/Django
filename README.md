@@ -15,4 +15,7 @@ https://drive.google.com/file/d/1YeS6lDQc_kQAZNecCP-OLN98vjBLdrKJ/view?usp=drive
 
 Activity 4:
 
+<img width="1366" height="768" alt="sheee" src="https://github.com/user-attachments/assets/990af57f-89f0-45b1-be47-463719d1c327" />
+
+
 https://drive.google.com/file/d/1pFZd61KLVdJ9BZWO9EvhYy2Y_sxrpz1h/view?usp=sharing
